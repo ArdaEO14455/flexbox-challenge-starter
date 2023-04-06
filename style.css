@@ -10,4 +10,147 @@ body {
     display: flex;
     flex-direction: column;
 }
+/* Header Component */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0 1.5 rem;
+}
+#brand {
+    width: 50%
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+nav a{
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: #888
+}
+
+/* Hero Component */
+
+#hero {
+    display:flex;  
+    flex-direction: column;
+    background: #8980c2 url(images/zebra-hero.jpg) 33% center no-repeat;
+    background-size: cover;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+#hero h1 {
+    color: white;
+    font-family: 'Bree Serif', 'times New Roman', 'sans-serif';
+    font-size: 2.55rem;
+    font-weight: normal;
+    margin: 1rem 0
+}
+
+#hero a {
+    color: white;
+    text-decoration: none;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+    border: 1px solid white;
+    padding: 0.75rem 1.25rem
+}
+
+#hero img {
+    width: 66% ;
+    border-radius: 50%;
+}
+
+/* Main Content Component */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Bree Serif', 'times New Roman','sans-serif';
+
+}
+
+main h2 {
+    font-family: 'Bree Serif', 'times New Roman', 'sans-serif';
+     margin: 1rem 0 0;
+}
+
+main article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    padding: 1rem;
+
+}
+
+main article img {
+    width: 75%;
+    border-radius: 50%;
+    border: 4px solid #8980c2;
+}
+
+main article h3 {
+    margin: 1rem 0;
+    color: #8980c2 ;
+    font-weight: normal;
+    font-size: 1.5rem
+}
+
+main article p {
+    font-weight: normal;
+    font-size: 1.1rem ;
+    margin-bottom: 1.5rem ;
+    
+}
+
+main article a {
+    color: #8980c2;
+    text-decoration: none;
+    font-size: 1.25rem;
+    border: 1px solid #8980c2;
+    padding: 0.75rem 1.25rem
+    
+}
+
+/* Social Links Component */
+
+#social-links {
+    background: #8980c2 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+#social-links p {
+    font-family: 'Bree Serif', 'times New Roman', 'sans-serif';
+    color: white;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+
+
+}
+#social-links > div {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+/* Footer Component */
+
+footer{
+    text-align: center;
+    padding: 1rem;
+
+}
+
+footer p {
+    font-family: 'Bree Serif', 'times New Roman', 'sans-serif';
+    font-size: 1.25rem;
+}
 
